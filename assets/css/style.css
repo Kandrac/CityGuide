@@ -1,0 +1,14 @@
+body {background-image: url(../images/Layer_5_A0_Rectangle_8_pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {margin-top:15px;
+}
+
+.container { margin: 0 auto;
+        width: 780px;
+    background-color: rgba(128, 128, 128, 0.356);
+    border-radius: 15px;
+
+}
