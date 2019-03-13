@@ -1,6 +1,8 @@
 body {background-image: url(../images/CityGuideLandingBg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    background-color: white;
 }
 
 .navbar {margin-top:15px;
