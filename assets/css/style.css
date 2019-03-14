@@ -12,5 +12,8 @@ body {background-image: url(../images/CityGuideLandingBg.jpg);
         width: 780px;
     background-color: rgba(128, 128, 128, 0.356);
     border-radius: 15px;
-
+padding: 20px;
 }
+
+#jump { text-align: center;
+margin-bottom: 20px;}
