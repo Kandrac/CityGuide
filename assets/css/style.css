@@ -1,0 +1,19 @@
+body {background-image: url(../images/CityGuideLandingBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: white;
+}
+
+.navbar {margin-top:15px;
+}
+
+.container { margin: 0 auto;
+        width: 780px;
+    background-color: rgba(128, 128, 128, 0.356);
+    border-radius: 15px;
+padding: 20px;
+}
+
+#jump { text-align: center;
+margin-bottom: 20px;}
