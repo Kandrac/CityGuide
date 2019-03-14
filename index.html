@@ -71,7 +71,7 @@
             </div>
             <div class="button-container">
 
-                <button type="button" class="btn btn-primary" id='event-search'>Find my event!</button>
+                <button type="button" class="btn btn-primary" id='event-search' data-toggle="modal" data-target=".bd-example-modal-lg">Find my event!</button>
             </div>
 
 
@@ -80,28 +80,42 @@
 
     </div>
 
-    <hr class="bottomHR">
 
-    <div class="grid-x">
-        <div class="cell large-auto">
-            <p>&nbsp;</p>
-            <div></div>
-        </div>
-        <div class="cell large-auto">
-            <p class="apiEvent">Your Event(s)</p>
-            <hr class="resultsHR">
-            <div id="venue-div"></div>
-        </div>
-        <div class="cell large-auto">
-            <p class="apiWeather">The Weather</p>
-            <hr class="resultsHR">
-            <div id="weather-div"></div>
-        </div>
 
+
+
+
+
+
+    
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <div class="grid-x">
+                    <div class="cell large-auto">
+                        <p>&nbsp;</p>
+                        <div></div>
+                    </div>
+                    <div class="cell large-auto">
+                        <p class="apiEvent">Your Event(s)</p>
+                        <div class="resultsHR">
+                            <div id="venue-div"></div>
+                        </div>
+                    </div>
+                    <div class="cell large-auto">
+                        <p class="apiWeather">The Weather</p>
+                        <div class="resultsHR">
+                            <div id="weather-div"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-
-
-
 
 
 

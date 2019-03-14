@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("#event-search").on("click", function(event) {
       event.preventDefault();
-  
+
       let eventName = $('#name-input').val().trim();
       let city = $('#city-input').val().trim();
       let state = $('#state-input').val().trim();
@@ -47,7 +47,6 @@ $(document).ready(function(){
       })
   
       clearFunction();
-  
       });
   
     
@@ -58,3 +57,4 @@ $(document).ready(function(){
       $('#venue-div').empty();
     }
   
+ 
