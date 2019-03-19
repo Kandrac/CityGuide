@@ -1,5 +1,10 @@
+
+
 $(document).ready(function(){
+<<<<<<< HEAD
   $('.carousel').carousel({interval: 3000});
+=======
+>>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 
   $("#event-search").on("click", function(event) {
      event.preventDefault();
