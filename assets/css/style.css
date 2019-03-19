@@ -1,47 +1,8 @@
-<<<<<<< HEAD
-/*body {background-image: url(../images/CityGuideLandingBg.jpg);
-=======
 body {background-image: url(../images/CityGuideLandingBg.jpg);
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
   background-repeat: no-repeat;
   background-size: cover;
 
   background-color: white;
-<<<<<<< HEAD
-}
-*/
-/* Carousel */
-html {
-	position: relative;
-	min-height: 100%;
-}
-.carousel-fade .carousel-inner .item {
-	opacity: 0;
-	transition-property: opacity;
-}
-.carousel-fade .carousel-inner .active {
-	opacity: 1;
-}
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-	/*left: 0;*/
-	opacity: 0;
-	z-index: 1;
-}
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-	opacity: 1;
-}
-.carousel-fade .carousel-control {
-	z-index: 2;
-}
-.carousel-inner > .item {
-	width: 100%;
-	min-height: 100%;
-	object-fit: cover;
-	object-position: center;
-=======
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
@@ -104,7 +65,6 @@ html {
 
  /*end of carousel */
 
-<<<<<<< HEAD
 /*.navbar {margin-top:15px;
 }*/
 
@@ -148,40 +108,10 @@ input[type=text]:focus,
 input[type=password]:focus {
 	background-color: #ddd;
 	outline: none;
-=======
-.container { margin: 0 auto;
-      width: 780px;
-  background-color: rgba(128, 128, 128, 0.356);
-  border-radius: 15px;
-padding: 20px;
-}
-
-#jump { text-align: center;
-margin-bottom: 20px;}
-
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-/* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 /* Set a style for all buttons */
 button {
-<<<<<<< HEAD
 	background-color: black;
 	color: white;
 	padding: 10px 8px;
@@ -211,56 +141,19 @@ li {
 .signupbtn {
 	float: left;
 	width: 50%;
-=======
-  background-color:black;
-  color:white;
-  padding: 10px 8px;
-  margin: 8px 0px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-  font-size:16px;
-}
-
-button:hover {
-  opacity:1;
-}
-li{margin-right: 15px;}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 10px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 /* Add padding to container elements */
 .container {
-<<<<<<< HEAD
 	padding: 16px;
 }
 span.psw {
 	float: right;
 	padding-top: 16px;
-=======
-  padding: 16px;
-}
-span.psw {
-  float: right;
-  padding-top: 16px;
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 /* The Modal (background) */
 .id01 {
-<<<<<<< HEAD
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Sit on top */
@@ -271,34 +164,10 @@ span.psw {
 	overflow: auto; /* Enable scroll if needed */
 	background-color: #474e5d;
 	padding-top: 50px;
-=======
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: #474e5d;
-  padding-top: 50px;
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 /* The Modal (background) */
 .id02 {
-<<<<<<< HEAD
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
-	left: 0;
-	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: #474e5d;
-	padding-top: 50px;
-=======
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -309,40 +178,18 @@ span.psw {
   overflow: auto; /* Enable scroll if needed */
   background-color: #474e5d;
   padding-top: 50px;
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 /* Modal Content/Box */
 .modal-content {
-<<<<<<< HEAD
-	background-color: #fefefe;
-	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-	border: 1px solid #888;
-	width: 80%; /* Could be more or less, depending on screen size */
-=======
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 /* Style the horizontal ruler */
 hr {
-<<<<<<< HEAD
-	border: 1px solid #f1f1f1;
-	margin-bottom: 25px;
-}
-
-/* The Close Button (x) */
-.close {
-	position: absolute;
-	right: 10px;
-	top: 15px;
-	font-size: 40px;
-	font-weight: bold;
-	color: red;
-=======
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
@@ -355,44 +202,24 @@ hr {
   font-size: 40px;
   font-weight: bold;
   color: red;
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 .close:hover,
 .close:focus {
-<<<<<<< HEAD
-	color: #f44336;
-	cursor: pointer;
-=======
   color: #f44336;
   cursor: pointer;
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 /* Clear floats */
 .clearfix::after {
-<<<<<<< HEAD
-	content: "";
-	clear: both;
-	display: table;
-=======
   content: "";
   clear: both;
   display: table;
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-<<<<<<< HEAD
-	.cancelbtn,
-	.signupbtn {
-		width: 100%;
-	}
-}
-=======
   .cancelbtn, .signupbtn {
      width: 100%;
   }
 }
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf

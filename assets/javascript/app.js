@@ -1,10 +1,7 @@
 
 
 $(document).ready(function(){
-<<<<<<< HEAD
   $('.carousel').carousel({interval: 3000});
-=======
->>>>>>> ae1b848e9ae4c8b6e0cf3a45473573b617dc68bf
 
   $("#event-search").on("click", function(event) {
      event.preventDefault();
@@ -15,7 +12,7 @@ $(document).ready(function(){
      let country = $('#state-input').val().trim();
  
    
-     let queryURL = 'https://app.ticketmaster.com/discovery/v2/events.response?size=20&city=' + city + '&state=' + state + '&keyword=' + eventName + '&country=' + country + '&apikey=gKIFF1XQOpOt3rOCV2VA3fZ41bBzgIUQ';
+     let queryURL = 'https://app.ticketmaster.com/discovery/v2/events.response?size=7&city=' + city + '&state=' + state + '&keyword=' + eventName + '&country=' + country + '&apikey=gKIFF1XQOpOt3rOCV2VA3fZ41bBzgIUQ';
      $.ajax({
        url: queryURL,
        method: 'GET'
