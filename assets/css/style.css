@@ -185,7 +185,6 @@ span.psw {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
 }
 
 /* Style the horizontal ruler */
@@ -222,4 +221,54 @@ hr {
   .cancelbtn, .signupbtn {
      width: 100%;
   }
+}
+
+/* venue-div & weather-div styling css */
+#venue-div {
+    margin: 0 auto;
+    width: 780px;
+    text-align: center;
+}
+
+#venue-div img:hover {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+#venue-div img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 15px;
+    float: left;
+}
+
+#venue-div h2, #venue-div h3 { 
+    padding: 1px;
+}
+
+#venue-div h3 {
+    font-size: 15px; 
+}
+
+#venue-div h2 {
+    font-size: 18px;
+}
+
+#weather-div {
+    margin: 0 auto;
+    width: 780px;
+    text-align: center;
+    padding: 15px;
+}
+
+#weather-div h2 {
+    font-size: 22;
+}
+
+#weather-div h4 {
+    font-size: 18;
+}
+
+.weatherGroup {
+    margin: 20px;
 }

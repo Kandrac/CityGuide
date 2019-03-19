@@ -21,17 +21,23 @@ $(document).ready(function(){
  
        for(let events = 0; events < response.page.size; events++){
          let image = $('<img>').attr('src', response._embedded.events[events].images[0].url);
-         let eventName = $('<h2>').text('Event: ' + response._embedded.events[events].name);
+         let eventName = $('<h2>').text(response._embedded.events[events].name);
          let genre = $('<h3>').text('Genre: ' + response._embedded.events[events].classifications[0].genre.name);
-         let date = $('<h3>').text('Start date: ' + response._embedded.events[events].dates.start.localDate);
-         let time = $('<h3>').text('Start time: ' + response._embedded.events[events].dates.start.localTime);
+         let date = $('<h3>').text(response._embedded.events[events].dates.start.localDate);
+         let time = $('<h3>').text(response._embedded.events[events].dates.start.localTime);
          let tickets = $("<a>").attr('href', response._embedded.events[events].url).text('Get your tickets!');
          tickets.attr("target", "_blank")
-         let venue = $('<h5>').text('Venue: ' + response._embedded.events[events]._embedded.venues[0].name);
+         let venue = $('<h3>').text('Venue: ' + response._embedded.events[events]._embedded.venues[0].name);
  
-         $('#venue-div').append(image, eventName, genre, date, time, tickets, venue);
+        var results = $("<div>").addClass("group");
+
+        //console.log(results);
+        $(results).append(image, eventName, genre, date, time, tickets, venue);
  
+        $("#venue-div").append(results);
+         
        }
+
        let lat = (response._embedded.events[0]._embedded.venues[0].location.latitude);
          let long = (response._embedded.events[0]._embedded.venues[0].location.longitude);
      })
@@ -46,9 +52,13 @@ $(document).ready(function(){
        let farenheit = $('<h4>').text(temp.toFixed(0) + '°F');
        let condition = $('<h4>').text('Outlook: ' + response.weather[0].main);
  
-       $('#weather-div').append(name, farenheit, condition);
-     })
+      var weatherResults = $("<div>").addClass("weatherGroup");
+
+      $(weatherResults).append(name, farenheit, condition);
  
+      $('#weather-div').append(weatherResults);
+     })
+
      clearFunction();
      });
  
