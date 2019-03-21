@@ -1,10 +1,11 @@
-
-
 $(document).ready(function(){
   $('.carousel').carousel({interval: 4000});
 
   $("#event-search").on("click", function(event) {
      event.preventDefault();
+     TweenMax.to("#logo", 1, {rotation:360});
+     TweenMax.to("#event-search", 1, {rotationx:360});
+     TweenMax.to("#jump", 1, {rotationy:360});
 
      let eventName = $('#name-input').val().trim();
      let city = $('#city-input').val().trim();
@@ -35,6 +36,7 @@ $(document).ready(function(){
         $(results).append(image, eventName, genre, date, time, tickets, venue);
  
         $("#venue-div").append(results);
+        TweenMax.to("#venue-div", 2, {x: 40, ease:Bounce.easeOut});
          
        }
 
@@ -67,6 +69,7 @@ $(document).ready(function(){
    let clearFunction = function(){
      $('#weather-div').empty();
      $('#venue-div').empty();
+     TweenMax.to("#logo", 1, {rotation:360});
    }
 
         // Initialize Firebase
@@ -174,3 +177,9 @@ firebase.initializeApp(config);
    })
 
 });
+
+TweenMax.to("#city-input", 1, {y:-10});
+ TweenMax.to("#state-input", 1, {y:-10});
+ TweenMax.to("#name-input", 1, {y:-20});
+
+TweenMax.to("#jump", 5, {ease:Bounce.easeOut});

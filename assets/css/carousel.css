@@ -1,3 +1,4 @@
+
 .carousel {
     position: relative;
     z-index: -99;
@@ -21,13 +22,11 @@
     background-size: cover;
     -moz-background-size: cover;
 }
-
 .carousel .two {
     background: url(assets/img/slide2blur.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
-
 .carousel .three {
     background: url(assets/img/slide1blur.jpg);
     background-size: cover;
